@@ -19,7 +19,7 @@ author_requires 'Test::Pod' => '1.14';
 
 author_tests 't/author';
 
-resources repository => 'git://github.com/bobtfish/CatalystX-Debug-ResponseHeaders.git';
+resources repository => 'git://git.shadowcat.co.uk/catagits/CatalystX-Debug-ResponseHeaders';
 
 if ($Module::Install::AUTHOR) {
     system("pod2text lib/CatalystX/Debug/ResponseHeaders.pm > README")
