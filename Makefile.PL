@@ -10,7 +10,7 @@ all_from 'lib/CatalystX/Debug/ResponseHeaders.pm';
 requires 'Moose';
 requires 'namespace::autoclean';
 
-build_requires 'Catalyst::Runtime' => '5.80015';
+build_requires 'Catalyst::Runtime' => '5.80022';
 build_requires 'Test::WWW::Mechanize::Catalyst';
 build_requires 'Test::More' => '0.88';
 
