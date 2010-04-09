@@ -2,7 +2,7 @@ package CatalystX::Debug::ResponseHeaders;
 use Moose::Role;
 use namespace::autoclean;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 requires qw/
     log_response_headers
